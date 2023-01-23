@@ -3,10 +3,11 @@ import 'package:flutter/material.dart';
 void main() {
   return runApp(
     MaterialApp(
+      title: "Dicee",
       home: Scaffold(
         backgroundColor: Colors.red,
         appBar: AppBar(
-          title: Text('Dicee'),
+          title: const Text('Dicee'),
           backgroundColor: Colors.red,
         ),
         body: DicePage(),
