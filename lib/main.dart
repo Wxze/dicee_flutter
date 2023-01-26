@@ -4,6 +4,7 @@ void main() {
   return runApp(
     MaterialApp(
       title: "Dicee",
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Colors.red,
         appBar: AppBar(
